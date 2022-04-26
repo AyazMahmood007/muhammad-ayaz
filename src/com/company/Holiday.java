@@ -29,12 +29,6 @@ package com.company;
     public static void main(String[] args) {
         Holiday holiday1 = new Holiday("Independence Day", 4, "July");
 
-         Holiday holiday2=new Holiday("Independence Day",5,"July");
-        Holiday holiday3=new Holiday("Independence Day",30,"July");
-        Holiday[] list={holiday1,holiday3,holiday2};
-        System.out.println((holiday1.inSameMonth(holiday2)));
-
-
     }
 
 }
